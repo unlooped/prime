@@ -132,35 +132,7 @@ Circle.implement({
 })
 ```
 
-## module: type
-
-The type module can use used to determine a type of a specified value.
-
-### exports
-
-A function that determines the type of a value. The returned value is a string.
-
-```js
-var type = require('prime/type')
-
-type([1, 2])        // array
-type("ciao")        // string
-type(/_/)           // regexp
-type(function(){})  // function
-type(10)            // number
-type(Inifity)       // number
-type(NaN)           // null
-type(true)          // boolean
-type(false)         // boolean
-type({a: 2})        // object
-(function(){
-    type(arguments) // object
-})()
-type(null)          // null
-type(undefined)     // null
-```
-
-## module: util/emitter
+## module: emitter
 
 Emitter is a module for managing and emitting events.
 

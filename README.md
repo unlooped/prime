@@ -77,27 +77,4 @@ map.set(domElement2, "footer")
 map.get(domElement) // "header"
 map.get(domElement2) // "footer"
 ```
-
-### prime/type
-
-Type checker.
-
-```js
-var type = require("prime/type")
-
-type("string") // "string"
-type([]) // "array"
-type(function(){}) // "function"
-type(/regexp/) // "regexp"
-type(new Date) // "date"
-type(10) // "number"
-type(false) // "boolean"
-type({}) // "object"
-type(arguments) // "object"
-
-type(null) // "null"
-type(undefined) // "null"
-type(NaN) // "null"
-```
-
 [![Build Status](https://secure.travis-ci.org/mootools/prime.png?branch=master)](http://travis-ci.org/mootools/prime)
