@@ -29,7 +29,7 @@
     "mout": "~0.9"
   },
   "devDependencies": {
-    "mocha": "^1.17",
+    "mocha": "^1.17.1",
     "expect.js": "~0.2"
   },
   "optionalDependencies": {},
