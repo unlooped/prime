@@ -25,7 +25,9 @@
     "type": "git",
     "url": "git://github.com/mootools/prime.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mout": "~0.7.1"
+  },
   "devDependencies": {
     "mocha": "1.8",
     "mocha-phantomjs": "2.0",
