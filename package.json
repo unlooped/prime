@@ -26,16 +26,17 @@
     "url": "git://github.com/mootools/prime.git"
   },
   "dependencies": {
-    "mout": "~0.7.1"
+    "mout": "~0.9"
   },
   "devDependencies": {
-    "mocha": "1.8",
-    "mocha-phantomjs": "2.0",
-    "expect.js": "0.1",
-    "wrapup": "0.10"
+    "mocha": "^1.17",
+    "expect.js": "~0.2"
   },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test"
   }
 }

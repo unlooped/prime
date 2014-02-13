@@ -83,7 +83,7 @@ map.get(domElement2) // "footer"
 
 ### prime/defer
 
-Easy and optimized timeouts / immediates / animationFrames.
+Optimized timeouts / immediates / animationFrames.
 
 ```js
 var defer = require("prime/defer")
